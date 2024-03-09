@@ -9,10 +9,18 @@ const Collection = () => {
         <Wrapper>
             <h1 className='text-center mb-[20px] text-[32px] font-bold'>Inspiration Collection</h1>
             <p className='text-center mb-[50px] text-[20px] font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div className='flex justify-between'>
-                <img src={img1} alt="" className='translate-y-[38px]'/>
-                <img src={img2} alt="" />
-                <img src={img3} alt="" className='translate-y-[38px]'/>
+            <div className='flex justify-between gap-x-[40px]'>
+              <div className='flex-1'>
+
+                <img src={img1} alt="" className='translate-y-[38px] w-full'/>
+              </div>
+              <div className='flex-1'>
+
+                <img src={img2} alt="" className='w-full'/>
+              </div>
+              <div className='flex-1'>
+                <img src={img3} alt="" className='translate-y-[38px] w-full'/>
+              </div>
             </div>
         </Wrapper>
     </div>
