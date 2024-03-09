@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from "../../assets/images/SkinClinic.png"
 import Wrapper from '../Wrapper'
 const Navbar = () => {
   return (
